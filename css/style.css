@@ -1,0 +1,91 @@
+body {
+    background-color: #ECCDB4;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: BLACK;
+}
+
+h1 {
+    color: #e91e63;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.bandeira {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+}
+
+a {
+    color: #2196f3;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff5722;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+#mensagem {
+    text-align: center;
+    font-size: 18px;
+    color: #d32f2f;
+    margin-top: 15px;
+    font-weight: bold;
+}
